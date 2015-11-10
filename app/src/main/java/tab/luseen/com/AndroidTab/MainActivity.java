@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (getSupportActionBar()!=null) {
+            getSupportActionBar().setElevation(0);
+        }
         ViewPager viewPager=(ViewPager)findViewById(R.id.ViewPager);
         viewPager.setAdapter(new Adapter(getSupportFragmentManager(),MainActivity.this));
         TabLayout tab=(TabLayout)findViewById(R.id.Tablayout);
