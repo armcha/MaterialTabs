@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#c71111" android:state_selected="true" />
+    <item android:color="#063ba4" />
+</selector><!-- From: file:/C:/Users/Chatikyan/AndroidStudioProjects/Tab4/app/src/main/res/drawable/color.xml -->
